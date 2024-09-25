@@ -132,8 +132,8 @@ public class Person
         retString += "" + DQ + "firstName" + DQ + ":" + DQ + this.firstName + DQ + ",";
         retString += "" + DQ + "lastName" + DQ + ":" + DQ + this.lastName + DQ + ",";
         retString += "" + DQ + "title" + DQ + ":" + DQ + this.title + DQ + ",";
-        retString += "" + DQ + "YOB" + DQ + ":" + DQ + this.YOB + DQ + "}";
-        return String.valueOf(retString);
+        retString += "" + DQ + "YOB" + DQ + ":" + DQ + this.YOB + DQ;
+        return String.valueOf(retString) + "}";
     }
 
     public String toXML()
